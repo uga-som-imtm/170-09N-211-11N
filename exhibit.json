@@ -1,0 +1,300 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Adjacent Cancer Patient Tissue 211 (left) 170 (right)",
+      "Path": "images/170-09N-211-11N-",
+      "Width": 88446,
+      "Height": 28430,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "CD44v9 Expressing CSCs",
+          "Description": "CD44v9 positive CSCs (green), endothelial cells (red), inflitrating CD163 (magenta) and CD11b (cyan) positive immune cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "waypoint 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.998765262944353,
+          "Pan": [
+            2.5611217505385726,
+            0.4917908028053696
+          ]
+        },
+        {
+          "Name": "CD44v9 Expressing CSCs in proximity to Schwann Cells",
+          "Description": "CD44v9 positive CSCs (green) in proximity to GFAP positive cells (magenta).  When the CD44v9 channel is switched off GFAP is observed in proximity to CSCs.  SPP1 co-expressed with CD44v9 areas obvious in patient sample 211 (tissue section on left side of slide).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "waypoint 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.836669241835146,
+          "Pan": [
+            2.1515637563677505,
+            0.39738828549065625
+          ]
+        },
+        {
+          "Name": "Schwann Cells",
+          "Description": "GFPA positive Schwann cells (magenta)",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "waypoint 3",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.836669241835146,
+          "Pan": [
+            2.151572079212628,
+            0.39739660833553325
+          ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is purple, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own multi-color image",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.836669241835146,
+          "Pan": [
+            2.151572079212628,
+            0.39739660833553325
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "SPP1",
+      "Path": "SPP1_2__SPP1"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA_6__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD44v9",
+      "Path": "CD44v9_7__CD44v9"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_13__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki67",
+      "Path": "Ki67_3__Ki67"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_15__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "SOX10",
+      "Path": "SOX10_17__SOX10"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "GFAP",
+      "Path": "GFAP_4__GFAP"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Overview",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "00ffff",
+        "00ff00",
+        "ffff00",
+        "78771b",
+        "bce0c4",
+        "ffb07c",
+        "ffffff",
+        "a800ff",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "SPP1",
+        "SMA",
+        "CD44v9",
+        "CD8a",
+        "CD11b",
+        "Ki67",
+        "CD163",
+        "SOX10",
+        "Pan-CK",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "waypoint 1",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff0000",
+        "00ffff",
+        "ff00ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Ki67",
+        "SMA",
+        "CD11b",
+        "CD163",
+        "CD44v9"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "waypoint 2",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff00ff",
+        "00ffff",
+        "ffff00",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "SPP1",
+        "GFAP",
+        "CD11b",
+        "CD163",
+        "Vimentin",
+        "CD44v9"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "waypoint 3",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "ffffff",
+        "00ffff",
+        "ffff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "GFAP",
+        "SPP1",
+        "CD11b",
+        "CD163",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own multi-color image",
+      "Colors": [
+        "0000ff",
+        "a800ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "PixelsPerMicron": 3.0769230769230766,
+  "FirstGroup": "Overview",
+  "FirstViewport": {
+    "Pan": [
+      1.5553323259466998,
+      0.5261633497088797
+    ],
+    "Zoom": 0.28929516315039683
+  }
+}
